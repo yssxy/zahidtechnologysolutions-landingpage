@@ -4,13 +4,21 @@
 
 body {
     display: flex;
-    margin: 0px;
-    background-color: beige;
+    
+    background-color: white;
+    scroll-behavior: smooth;
     
 }
+
+.header {
+
+    position: sticky;
+        
+}
+
 .container {
 
-    background-color: aqua;
+    
     height: 56px;
     width: 100%;
     display: flex;
@@ -19,6 +27,26 @@ body {
     
 
 }
+
+.footer-container {
+
+    bottom: 0;
+    position: absolute;
+    border-style: solid;
+    width: auto;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 15px;
+}
+.letter-z {
+
+    color: blue;
+}
+
+
+
 
 svg {
     width: 23.984px;
