@@ -72,3 +72,33 @@ a {
     
 
 }
+
+section {
+
+
+    background-color: beige;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+
+}
+
+.tiny5-regular {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    /*border-style: solid;*/
+    margin: 0;
+    padding: 10px;
+    font-size: 80px;
+
+
+  }
+
+  
+  
