@@ -1,6 +1,6 @@
 * {
    /* border-style: solid; */
-   scroll-behavior: smooth;
+   
 }
 
 body {
@@ -47,6 +47,12 @@ body {
 .letter-z {
 
     color: blue;
+}
+
+.h6 {
+
+    margin-left: 25px;
+
 }
 
 
