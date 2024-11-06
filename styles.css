@@ -4,12 +4,9 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+    margin: 0px;⁰
     
-
-    margin: 0;
+    
 }
 
 .border-image {
@@ -27,6 +24,33 @@ body {
 }
 
 */
+.containerHero {
+
+    margin: 0px;
+
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90deg, #7CB9E8, #7FFFD4);
+
+
+}
+
+.heroText {
+
+    display: flex;
+    align-items: center;
+    border-style: solid;
+
+
+}
+
+.heroItem {
+
+   border-style: solid;
+
+}
+
 
 .header {
 
@@ -45,6 +69,8 @@ body {
     display: flex;
     align-items: center;
     justify-content:flex-end;
+    
+
     
 
 }
