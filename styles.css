@@ -4,32 +4,22 @@
 }
 
 body {
-    margin: 0px;⁰
+
+
+    margin: 0px;
     
     
 }
 
-.border-image {
-
-    display: flex;
-    position: absolute;
-    margin-left: 25%;
-   
-    width: 720px}
 
 
-/* div {
-
-    border-style: solid;
-}
-
-*/
 .containerHero {
 
     margin: 0px;
-
+    padding: 0px;
     border-style: solid;
     display: flex;
+    flex-direction: row;
     align-items: center;
     background-image: linear-gradient(90deg, #7CB9E8, #7FFFD4);
 
@@ -39,9 +29,21 @@ body {
 .heroText {
 
     display: flex;
+    flex-direction: column;
+    position: absolute;
     align-items: center;
     border-style: solid;
+    top: 50px;
 
+}
+
+
+
+.picture {
+
+    
+    position: relative;
+    margin-left: 50%;
 
 }
 
@@ -58,10 +60,27 @@ body {
     top: 0px;
     background-color: white;
     z-index: 1;
+    
         
 }
 
-.container {
+.headerLinks {
+
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+.links {
+
+   
+   margin-right: 10px;
+
+}
+
+.containerHeader {
 
     
     height: 56px;
@@ -91,15 +110,11 @@ body {
     margin-right: auto;
     margin-left: 15px;
 }
+
+
 .letter {
 
     color: blue;
-}
-
-.h6 {
-
-    margin-left: 25px;
-
 }
 
 
@@ -114,34 +129,8 @@ svg {
 
 }
 
-a {
-
-    cursor: pointer;
-    margin-right: 25px;
-    
-
-}
-
-section {
 
 
-    background-color: white;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    /*border-style: solid;*/
-    margin-left: 10vh;
-    margin-right: 10vh;
-    
-    
-}
-
-.border-image {
-
-    position: sticky;
-    top: 10;
-   
-}
 
 .tiny5-regular {
     font-family: "Tiny5", serif;
@@ -153,28 +142,33 @@ section {
 
   }
 
-  .h1-top {
+  
+  .myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
-    margin-top: 10vh;
-    
-
-  }
-
-  /* .h1-bottom {
-
-     
-    margin-right: auto; 
-    margin-left: 20vh; 
-
-
-
-  } */
  
-  p {
-
-    margin-top: 5vh;
-
-  }
   
   
   
